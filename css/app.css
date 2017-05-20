@@ -1,31 +1,21 @@
-li{
-	width: 200px;
-	height: 200px;
-	display: inline-block !important;
-} 
-
-img{
-	width: 50%;
-	height: 100%;
-}
-
-.rbit-container{
-	display: inline-block !important;
-}
-
-.orbit-slide{
-	display: inline-block !important;
-	width: 200px;
-}
-
-.orbit-image{
-	display: inline-block !important;
-}
-
-button{
-	background: black;
-}
-
 .owl-dots{
 	display: none;
+}
+
+.owl-carousel{
+	padding: 0 3rem;
+    box-sizing: border-box;
+}
+
+.owl-nav{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 0;
+	z-index: -1;
 }

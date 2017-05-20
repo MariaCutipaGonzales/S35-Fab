@@ -6,16 +6,17 @@ $(document).ready(function(){
     responsive:{
         0:{
             items:2,
-            nav:true
+             nav:false
+        
         },
         600:{
             items:3,
-            nav:false
+            nav:true
+      
         },
         1000:{
-            items:5,
-            nav:true,
-            loop:false
+            items:4,
+            nav:true
         }
     }
 })
