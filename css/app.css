@@ -1,0 +1,31 @@
+li{
+	width: 200px;
+	height: 200px;
+	display: inline-block !important;
+} 
+
+img{
+	width: 50%;
+	height: 100%;
+}
+
+.rbit-container{
+	display: inline-block !important;
+}
+
+.orbit-slide{
+	display: inline-block !important;
+	width: 200px;
+}
+
+.orbit-image{
+	display: inline-block !important;
+}
+
+button{
+	background: black;
+}
+
+.owl-dots{
+	display: none;
+}
