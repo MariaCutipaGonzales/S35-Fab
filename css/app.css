@@ -1,3 +1,6 @@
+*{
+  outline: 0;
+}
 #ecommerce-header *{
   color :#171717;
 }
@@ -116,10 +119,10 @@
   margin: 20px 0 20px 0;
 }
 .nav-content ul li a{
-   padding: 0px !important;
+  padding: 0px !important;
 }
 .delimiter{
-   border-right: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
 }
 
 .logo{
@@ -143,7 +146,7 @@
     margin-left:10px;
   }
   #img-large{
-      display: none !important;
+    display: none !important;
   }
   .logo-mobile{
     width: 65px;
@@ -155,40 +158,90 @@
 }
 
 .search-content input {
-    border: none;
-    color: #333;
-    border-right: 1px solid #171717;
-    width: 80%;
-    padding: 9px 0;
-    outline: none;
+  border: none;
+  color: #333;
+  border-right: 1px solid #171717;
+  width: 80%;
+  padding: 9px 0;
+  outline: none;
 }
 
 .searchBar {
-    display: flex;
-    align-items: center;
-    justify-content: ;: flex-start;
+  display: flex;
+  align-items: center;
+  justify-content: ;: flex-start;
 }
 
 .search-content {
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 95%;
-    margin-left: 5%;
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  margin-left: 5%;
 }
 
 .search-content .fa-search{
-    font-size: 1.1em;
+  font-size: 1.1em;
 }
 
 .search-content .fa-smile-o{
-    font-size: 1.4em;
-    cursor: pointer;
+  font-size: 1.4em;
+  cursor: pointer;
 }
 
 .icon-gray{
   color: gray;
   font-size: 1.4rem;
   padding: 5px;
+}
+
+.position-right::after{
+  width: 100%;
+}
+
+.search-movil{
+  float: right;
+  margin-top: 1rem;
+  padding: 0;
+  right: 0.6rem;
+}
+
+.off-canvas.is-open {
+  -ms-transform: translate(0, 0);
+      transform: translate(0, 0);
+    }
+
+.off-canvas .is-open{
+  width: 100% !important;
+
+}
+
+.asideBag{
+  width: 100%;
+}
+
+@media (max-width:600px) {
+  .position-right {
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    -ms-transform: translateX(100%);
+        transform: translateX(100%);
+    overflow-y: auto; }
+    .position-right.is-open ~ .off-canvas-content {
+      -ms-transform: translateX(-100%);
+          transform: translateX(-100%); }
+    .position-rightis-transition-push::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 1px;
+      box-shadow: 0 0 10px rgba(10, 10, 10, 0.7);
+      content: " "; }
+    .position-right.is-transition-overlap.is-open ~ .off-canvas-content {
+      -ms-transform: none;
+          transform: none; }
 }
