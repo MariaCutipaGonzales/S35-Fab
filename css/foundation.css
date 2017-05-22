@@ -2026,10 +2026,12 @@ select {
     right: 1rem; }
 
 .is-accordion-submenu-parent[aria-expanded='true'] > a::after {
-  -ms-transform: rotate(180deg);
+  /*-ms-transform: rotate(180deg);
       transform: rotate(180deg);
   -ms-transform-origin: 50% 50%;
-      transform-origin: 50% 50%; }
+      transform-origin: 50% 50%;*/
+      content: "-"
+     }
 
 .badge {
   display: inline-block;
