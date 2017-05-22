@@ -1,0 +1,110 @@
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.cnt-product-detail ul{
+	list-style: none;
+}
+
+
+.cnt-product img{
+	width: 100%;
+	height: auto;
+}
+
+.cnt-image img{
+	width: 56px;
+	height: 56px;
+	margin-bottom: 30px;
+}
+.cantidad{
+	position:relative;
+	display:inline-block;
+	vertical-align:middle;
+	font-size:13px;
+	zoom:1;
+	margin-top:14px;
+	margin-right:20px;
+	display:inline;
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	user-select:none;
+	text-align:center;
+}
+
+.addBag{
+	background-color:#d0021b;
+	color:#fff;
+	width:60%;
+	font-weight: bold;	
+	display: inline-block;
+	text-align: center;
+}
+
+.menu li a{
+	display: inline-block;
+}
+
+.addBag img{
+	width: 13px;
+	height: 18px;
+}
+
+.info{
+	color: #666;
+}
+.link-product{
+	font-size: 1.4em;
+	color: #666;
+	text-decoration: underline;
+}
+
+.price{
+	color: #000;
+	font-weight: 500;
+	font-size: 27px;
+}
+
+.shipping{
+	color:#dd0017;
+}
+
+#heartContainer{
+	color:#dd0017;
+	padding: 10px;
+	font-size: 1.2rem;
+}
+
+select {
+	width: 30%;
+}
+.social{
+	margin-top: 25px;
+}
+.social li{
+	padding-right: 15%;
+	display: inline;
+}
+.tittle-product{
+	margin: 0 0 5px 0;
+    padding: 0;
+    color: #171717;
+    width: auto;
+    height: 100%;
+}
+
+.rem-1{
+	font-size: 1.6rem!important;
+	color: #333;
+}
+
+/*zomm*/
+.magnify {width: 400px; margin: 50px auto; position: relative; cursor: none}
+
+.large {
+	width: 370px; height: 370px;
+	position: absolute;
+	border:1px solid red;
+	display: none;
+}
+.small { display: block; }
