@@ -1,3 +1,4 @@
+/*Estilo de Galerry carousel*/
 .owl-dots{
 	display: none;
 }
@@ -18,4 +19,19 @@
 	align-items: center;
 	margin-top: 0;
 	z-index: -1;
+}
+
+#carousel p{
+	font-weight: 600;
+	margin-left: 3rem;
+	color: #666;
+}
+#carousel img{
+	width: 230px;
+	height: 230px;
+}
+
+#carousel .row{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
 }

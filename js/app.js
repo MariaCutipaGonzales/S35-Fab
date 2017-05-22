@@ -5,9 +5,13 @@ $(document).ready(function(){
     responsiveClass:true,
     responsive:{
         0:{
-            items:2,
-             nav:false
+            items:1,
+            nav:false
         
+        },
+        300:{
+            items:2,
+            nav:false
         },
         600:{
             items:3,
@@ -22,3 +26,11 @@ $(document).ready(function(){
 })
 });
 
+var array_img_carousel = document.getElementsByClassName("item");
+console.log(array_img_carousel);
+
+for(var i=0; i<array_img_carousel.lenght;i++){
+    array_img_carousel[i].addEventListener("click", function(){
+     console.log("hola");
+    });
+}
