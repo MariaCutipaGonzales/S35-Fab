@@ -29,8 +29,15 @@ $(document).ready(function(){
 var array_img_carousel = document.getElementsByClassName("item");
 console.log(array_img_carousel);
 
-for(var i=0; i<array_img_carousel.lenght;i++){
-    array_img_carousel[i].addEventListener("click", function(){
+array_img_carousel[1].addEventListener("click",function(){
+    console.log(this);
+    var src = this.firstElementChild.getAttribute("src");
+    console.log(src);
+    sessionStorage.setItem("url-img", src);
+    
+});
+/*for(var i=0; i<array_img_carousel.lenght;i++){
+    array_img_carousel[i].onclick = function(){
      console.log("hola");
-    });
-}
+    };
+}*/
