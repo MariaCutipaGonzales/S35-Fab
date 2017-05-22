@@ -20,6 +20,10 @@
 	margin-top: 0;
 	z-index: -1;
 }
+.owl-next:before, .owl-prev:before{
+	font-size: 3em;
+	font-weight: 900;
+}
 
 #carousel p{
 	font-weight: 600;
@@ -36,8 +40,12 @@
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 }
-
+/*Estilo de item.html*/
 #img-carrito{
-	width: 400px;
-	height: 400px;
+	height: 460px;
+}
+
+#img-carrito img{
+	width: 100%;
+	height: 100%;
 }
