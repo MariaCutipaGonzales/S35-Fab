@@ -34,6 +34,7 @@ array_img_carousel[1].addEventListener("click",function(){
     var src = this.firstElementChild.getAttribute("src");
     console.log(src);
     sessionStorage.setItem("url-img", src);
+    window.location = "item.html";
     
 });
 /*for(var i=0; i<array_img_carousel.lenght;i++){
@@ -41,3 +42,4 @@ array_img_carousel[1].addEventListener("click",function(){
      console.log("hola");
     };
 }*/
+
