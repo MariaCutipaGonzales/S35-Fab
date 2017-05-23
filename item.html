@@ -6,7 +6,7 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link rel="shortcut icon" href="assets/img/favicon.ico">
 	    <title>Fab | Discover Home  Tech Accessories</title>
-
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	    <link rel="stylesheet" href="css/app.css">
 	    <link rel="stylesheet" type="text/css" href="css/foundation.css">
 	</head>
@@ -16,29 +16,68 @@
 				<div class="row">
 					<div class="small-12 medium-7 columns">
 						<div id="img-carrito">
-							<img src="">
+							<img id="img-local" src="">
 						</div>
 					</div>
-					<div class="small-12 medium-5 columns">
-						<button type="button" class="button" data-toggle="offCanvasRight">Open Right</button>
-
-						<div class="off-canvas-content" data-off-canvas-content></div>
-							 <p>I have nothing to do with the off-canvas on the right!</p>
-						</div>
-						</div>
-  					</div>
-  					<div class="off-canvas-wrapper">
-						   <div class="off-canvas position-right is-transition-push is-open" data-position="right" id="offCanvasRight" data-off-canvas>
-							<div class="title-canvas">My Bag</div>
-									
-	
-						   </div>						   
+					<div class="small-12 medium-5 columns">	
+							<button id="agregar" type="button" class="button" data-toggle="offCanvasRight">Agregar a carrito</button>				
 					</div>
 				</div>
 			</div>
-		</section>
-
-		
+			<div id="bag">
+				<div class="bg-black">My Bag</div>
+				<div class="delivery">
+					<i class="fa fa-truck" aria-hidden="true"></i>
+					<a href="#">FREE SHIPPING on orders above $75'</a>
+				</div>
+				<div class="row">
+						<div class="small-3 columns">
+							<div id="img-carrito-min">
+								<img src="assets/img/529855-236x236-1492724453-primary.png">
+							</div>										
+						</div>
+						<div class="small-9 columns">
+							<div class="small-12 columns cont-flex">
+								<span>Layers of Our Earth</span>
+								<a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+							</div>
+							<div class="small-12 columns cont-flex">
+								<select name="" id="cant-producto">
+									<option value="1">1</option>
+									<option value="2">2</option>
+									<option value="3">3</option>
+									<option value="4">4</option>
+									<option value="5">5</option>
+								</select>
+								<span id="precio">$45</span>
+							</div>
+						</div>
+				
+					<hr>
+				</div>				
+				<div class="row">
+				  	<div class="columns">
+					    <ul class="accordion" data-accordion>
+						  	<li class="accordion-item is-active" data-accordion-item>
+							    <a href="#" class="accordion-title">Accordion 1</a>
+							    <div class="accordion-content" data-tab-content >
+							      <p>Panel 1. Lorem ipsum dolor</p>
+							      <a href="#">Nowhere to Go</a>
+							    </div>
+							</li>
+						  	<li class="accordion-item" data-accordion-item>
+							    <a href="#" class="accordion-title">Accordion 2</a>
+							    <div class="accordion-content" data-tab-content>
+							      <textarea></textarea>
+							      <button class="button">I do nothing!</button>
+							    </div>
+						  	</li>
+						</ul>
+				  	</div>
+				</div>
+				<a  id="Checkout" class="bg-black">Checkout  <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			</div>
+		</section>	
 
 	    <script src="js/vendor/jquery.js"></script>
 	    <script src="js/vendor/what-input.js"></script>
