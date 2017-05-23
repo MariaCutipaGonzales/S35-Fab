@@ -54,17 +54,19 @@
 						</div>
 				</div>		
 				<div class="row">
-					    <ul class="vertical menu" data-accordion-menu>
-						  	<li class="accordion-item" data-accordion-item>
-							    <a href="#" class="accordion-title">Order Summary</a>
-							   	<ul class="menu vertical nested">
-							      <li class="accordion-item"><a href="#">Subtotal</a></li>
-							      <li class="accordion-item"><a href="#">estimated Shipping Free</a></li>
-							    </ul>
-							</li>
-						  	<li class="accordion-item" data-accordion-item>
-							    <a href="" class="accordion-title">Total</a>
-						  	</li>
+					    <ul class="accordion" data-accordion>
+						  	<li class="accordion-item is-active" data-accordion-item>
+							    <a href="#" class="accordion-title">Order Sumary</a>
+							    <div class="accordion-content" data-tab-content>
+							      	<ul class="accordion" data-accordion>
+								      	<li class="accordion-item" data-accordion-item>Sub Total</li>
+								      	<li class="accordion-item" data-accordion-item>Estimated Shipping Free</li>
+							      	</ul>
+							    </div>
+					  		</li>
+					  		<li class="accordion-item" data-accordion-item>
+					  			<a href="#" class="accordion-title">Total</a>
+					  		</li>
 						</ul>
 				</div>
 				<a  id="Checkout" class="bg-black">Checkout  <i class="fa fa-angle-right" aria-hidden="true"></i></a>
