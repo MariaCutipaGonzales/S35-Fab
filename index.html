@@ -47,7 +47,7 @@
 						<ul class="vertical medium-horizontal menu float-right">
 							<li><a href="#">Fab insider</a></li><li class="delimiter"></li>
 							<li><a href="#">Registry</a></li><li class="delimiter"></li>
-							<li><a href="#" data-toggle="offCanvasRight"><i class="fa fa-lock icon-gray"></i></a></li><li class="delimiter"></li>
+							<li><a href="#" data-toggle="offCanvasRight"><i class="fa fa-lock"></i></a></li><li class="delimiter"></li>
 							<li><a href="#">Login</a></li>
 						</ul>
 					</div>
@@ -69,6 +69,23 @@
 					</ul>
 				</nav>
 			</div>
+			<div class="hide-for-large padding-top5 ">
+						<div class="row padding-top5 nav-mobile">
+							<div class="small-4 columns">
+								<button class="menu-icon" type="button" data-toggle="ecommerce-header"></button>
+							</div>
+							<div class="small-4 columns align-center">
+								<a href="#"><img class="logo-mobile" src="assets/img/fab_logo_3_0.png"></a>
+							</div>
+							<div class="small-4 columns">
+								<div class="float-right">
+									<button class="fa fa-search" type="button" data-toggle="ecommerce-header2"></button>
+									<button class="fa fa-lock" type="button" data-toggle="offCanvasRight"></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 	</header>
 
 		<!--header-->
@@ -159,7 +176,7 @@
 					</li>
 				</ul>
 			</div>
-
+			<!--Se-->
 			<div class="off-canvas position-right" id="ecommerce-header2" data-off-canvas>
 				<button class="close-button" aria-label="Close menu" type="button" data-close="">
 					<span aria-hidden="true" class="fa fa-chevron-left"></span>
@@ -172,7 +189,7 @@
 					</div>
 				</div>
 			</div>
-
+			<!--HAMBURGUER-->
 			<div class="off-canvas ecommerce-header-off-canvas position-right" id="ecommerce-header3" data-off-canvas>
 				<ul class="vertical menu border-bottom">
 					<li class="main-nav-link"><a href="#">BUSCAR</a></li>
@@ -198,30 +215,91 @@
 						</ul>
 					</div>
 					<!-- ENLACES -->
-					<div class="hide-for-large padding-top5 ">
-						<div class="row padding-top5 nav-mobile">
-							<div class="small-4 columns">
-								<button class="menu-icon" type="button" data-toggle="ecommerce-header"></button>
-							</div>
-							<div class="small-4 columns align-center">
-								<a href="#"><img class="logo-mobile" src="assets/img/fab_logo_3_0.png"></a>
-							</div>
-							<div class="small-4 columns">
-								<div class="float-right">
-									<button class="fa fa-search icon-gray" type="button" data-toggle="ecommerce-header2"></button>
-									<button class="fa fa-lock icon-gray" type="button" data-toggle="offCanvasRight"></button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
+					
 				<!--list product-->
 				<!--Gallery product-->
 				<div class="row">
 					<div class="off-canvas position-right is-transition-push" id="offCanvasRight" data-off-canvas="9wngnx-off-canvas" data-position="right" aria-hidden="false">
-						<button class="close-button" aria-label="Close menu" type="button" data-close="">
-							<span aria-hidden="true" class="fa fa-chevron-right"></span>
-						</button>
+						<button class="close-button" aria-label="Close menu" type="button" data-close=""><span aria-hidden="true" class="fa fa-chevron-right"></span></button>
+						<div id="bag">
+							<div>
+								<div class="bg-black">My Bag</div>
+								<div class="delivery">
+									<i class="fa fa-truck" aria-hidden="true"></i>
+									<a href="#">FREE SHIPPING on orders above $75'</a>
+								</div>
+								<div class="details">
+									<div class="columns det-item">
+										<div class="small-3 columns">
+											<div id="img-carrito-min">
+												<img src="assets/img/529855-236x236-1492724453-primary.png">
+											</div>										
+										</div>
+										<div class="small-9 columns">
+											<div class="small-12 columns cont-flex">
+												<span>Layers of Our Earth</span>
+												<a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="small-12 columns cont-flex">
+												<select name="" id="cant-producto">
+													<option value="1">1</option>
+													<option value="2">2</option>
+													<option value="3">3</option>
+													<option value="4">4</option>
+													<option value="5">5</option>
+												</select>
+												<span id="precio">$45</span>
+											</div>
+										</div>
+									</div>
+									<div class="columns det-item">
+										<div class="small-3 columns">
+											<div id="img-carrito-min">
+												<img src="assets/img/529855-236x236-1492724453-primary.png">
+											</div>										
+										</div>
+										<div class="small-9 columns">
+											<div class="small-12 columns cont-flex">
+												<span>Layers of Our Earth</span>
+												<a href=""><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+											</div>
+											<div class="small-12 columns cont-flex">
+												<select name="" id="cant-producto">
+													<option value="1">1</option>
+													<option value="2">2</option>
+													<option value="3">3</option>
+													<option value="4">4</option>
+													<option value="5">5</option>
+												</select>
+												<span id="precio">$45</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>	
+							<div>
+								<div class="columns">
+									<ul class="accordion" data-accordion>
+										<li class="accordion-item" data-accordion-item>
+											<a href="#" class="accordion-title">Order Summary</a>
+											<div class="accordion-content" data-tab-content >
+												<ul class="accordion" data-accordion>
+													<li class="accordion-item">Stimaded Shipping Fee</li>
+													<li class="accordion-item">Sub Total</li>
+												</ul>
+											</div>
+										</li>
+										<li class="accordion-item" >
+											<a href="#" class="accordion-title">Total
+												<span class="float-right">$45</span>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<div class="columns bg-black"><a  id="checkout" >Checkout  <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+									</div>				
+							</div>
+						</div>
 					</div>
 				</div>
 
@@ -331,29 +409,7 @@
 			      </div>
 			    </div>
 			  </section>
-
-				<!--Footer-->
 	 <footer>
-      <!-- <div class="row border-bottom border-top">
-          <div class="colums small-12  flex-container">
-            <div class="fot-fixed-container">
-            <ul class="menu fot-top-links ">
-              <li><a href="#">About</a></li>
-              <li><a href="#">Gift</a></li>
-              <li><a href="#">Cards</a></li>
-              <li><a href="#">Careers</a></li>
-              <li><a href="#">FAQs</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Return</a></li>
-              <li><a href="#">Policy</a></li>
-              <li><a href="#">Shipping</a></li>
-              <li><a href="#">Terms</a></li>
-              <li><a href="#">Privacy</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-            </div>
-          </div>
-      </div> -->
 			<div class="row">
 				<div class="columns small-12 large-11">
 						<ul class="menu fot-top-links ">

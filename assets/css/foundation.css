@@ -1995,9 +1995,9 @@ select {
     top: 50%;
     right: 1rem;
     margin-top: -0.5rem;
-    content: '+'; }
+    content: '<'; }
   .is-active > .accordion-title::before {
-    content: '\2013'; }
+    content: '>'; }
 
 .accordion-content {
   display: none;
@@ -2826,7 +2826,7 @@ select {
     vertical-align: bottom; }
 
 .is-off-canvas-open {
-  overflow: hidden; }
+  overflow: hidden;}
 
 .js-off-canvas-overlay {
   position: absolute;
@@ -2838,12 +2838,16 @@ select {
   background: rgba(254, 254, 254, 0.25);
   opacity: 0;
   visibility: hidden;
-  overflow: hidden; }
+  overflow: hidden;
+  }
   .js-off-canvas-overlay.is-visible {
     opacity: 1;
-    visibility: visible; }
+    background-color: rgba(35, 38, 44, 0.5);
+    visibility: visible;
+   }
   .js-off-canvas-overlay.is-closable {
-    cursor: pointer; }
+    cursor: pointer;
+    z-index: 900; }
   .js-off-canvas-overlay.is-overlay-absolute {
     position: absolute; }
   .js-off-canvas-overlay.is-overlay-fixed {
@@ -2859,7 +2863,7 @@ select {
   transition: transform 0.5s ease;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  background: #e6e6e6; }
+  background: #fff; }
   [data-whatinput='mouse'] .off-canvas {
     outline: 0; }
   .off-canvas.is-transition-overlap {
@@ -2921,7 +2925,8 @@ select {
     overflow-y: auto; }
     .position-right.is-open ~ .off-canvas-content {
       -ms-transform: translateX(-450px);
-          transform: translateX(-450px); }
+          transform: translateX(-450px); 
+      background-color: white;}
     .position-right.is-transition-push::after {
       position: absolute;
       top: 0;
