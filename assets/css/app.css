@@ -98,13 +98,13 @@ select {
 	color: #333;
 }
 
-/*zomm*/
-.magnify {width: 400px; margin: 50px auto; position: relative; cursor: none}
-
-.large {
-	width: 370px; height: 370px;
-	position: absolute;
-	border:1px solid red;
-	display: none;
+/*DESCRIPCION*/
+.detalles{
+	list-style: none;
 }
-.small { display: block; }
+
+@media (max-width: 600px){
+	.hidden-xs{
+		display: none;
+	}
+}
