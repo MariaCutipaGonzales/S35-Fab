@@ -91,7 +91,12 @@
 }
 
 #bag .row{
-	margin-top: 1rem;
+	padding-top: 1rem;
+	border-bottom: 1px solid lightgray;
+}
+
+#bag .row:hover{
+	background-color: #f7f7f7;
 }
 
 .cont-flex a{
@@ -101,12 +106,15 @@
 .cont-flex a:hover{
 	color: red;
 }
+	
 #bag .delivery{
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-size: 12px;
 	padding: 7px 0;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid lightgray;
 }
 
 #bag .delivery a{
@@ -123,3 +131,13 @@
 	margin-right: 4px;
 }
 
+#bag ul li{
+	background-color: #e6e6e6;
+	border-bottom: 1px solid lightgray;
+	color: gray;
+}
+
+#bag .row a{
+	color: black;
+	font-size: 12px;
+}
