@@ -6,10 +6,10 @@ FAB ES RESPONSIVE Mobile / Desktop
 El proyecto es una replica de la Pagina <a href="www.fab.com">Fab Ecommerce</a>
 
 Requerimientos:
--Header (Nav)
--Search para los productos
--My bag (visualizacion de la compra)
--Menu Hamburguer (version Mobile)
+-Header (Nav)<br>
+-Search para los productos<br>
+-My bag (visualizacion de la compra)<br>
+-Menu Hamburguer (version Mobile)<br>
 -Footer
 <br>
 <br>
@@ -20,7 +20,8 @@ Requerimientos:
 <h3>Header</h3>
 
 Carrito de compras
-detailProduct--> Muestra la imagen de un producto con màs detalles (descripción del producto).
+Detalles  de Producto :<br>
+Muestra la imagen de un producto con màs detalles (descripción del producto).<br>
 
 <img src="https://raw.githubusercontent.com/MariaCutipaGonzales/S35-Fab/master/assets/img/mybag.png">
 <h3>Footer</h3><br>
@@ -29,7 +30,7 @@ Parte inferior de la pagina (muestra enlaces para mas informacion y otras para r
 <h3>Gallery</h3>
 
 muestra las imagenes con un efecto de Carousel
--En la seccion mobile de navegacion :
+-En la seccion mobile de navegacion :<br>
   Tiene todos los enlaces de las distintas secciones de la pagina y en la version movil cambia de aspecto con un menu oculto
 
 <img src="https://raw.githubusercontent.com/MariaCutipaGonzales/S35-Fab/master/assets/img/slideMobile.png">
@@ -42,9 +43,9 @@ Tiene las imagenes de portada para la seccion HOME
 <img src="https://raw.githubusercontent.com/MariaCutipaGonzales/S35-Fab/master/assets/img/navMobile.png"><br>
 <img src="https://raw.githubusercontent.com/MariaCutipaGonzales/S35-Fab/master/assets/img/searchmobile.png"><br>
 
-Sirvio de prueba para la union de todas las partes del proyecto
+<strong>Sirvio de prueba para la union de todas las partes del proyecto
 master--> contiene el codigo final del proyecto
-gh-pages--> muestra el producto ya terminado
+gh-pages--> muestra el producto ya terminado</strong>
 
 Contribuciones :
 -- <a href="https://github.com/Misshel">Jenny Velasquez</a>
