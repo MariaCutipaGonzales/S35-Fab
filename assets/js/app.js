@@ -51,7 +51,7 @@ for(var i=0; i<array_img_carousel.length; i++){
     var src = this.firstElementChild.getAttribute("src");
     console.log(src);
     sessionStorage.setItem("url-img", src);
-    window.location = "item.html";
+    window.location = "index.html";
     });
 }
 

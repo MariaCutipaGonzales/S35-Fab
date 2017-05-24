@@ -5,7 +5,7 @@ window.addEventListener("load", function(){
 	divImgCarrito.firstElementChild.setAttribute("src",url);
 
 	/*obtener src dando click*/
-	var agregarCarrito = document.getElementById("agregar");
+	var agregarCarrito = document.getElementById("addBag");
 	agregarCarrito.addEventListener("click", function(){
 		var src = document.getElementById("img-local").getAttribute("src");
 		console.log(src);
