@@ -47,9 +47,9 @@ Tiene las imagenes de portada para la seccion HOME
 master--> contiene el codigo final del proyecto
 gh-pages--> muestra el producto ya terminado</strong>
 
-Contribuciones :
--- <a href="https://github.com/Misshel">Jenny Velasquez</a>
--- <a href="https://github.com/florcondori">Flor Condori Huamani</a>
+Contribuciones :<br>
+-- <a href="https://github.com/Misshel">Jenny Velasquez</a><br>
+-- <a href="https://github.com/florcondori">Flor Condori Huamani</a><br>
 
 Puedes Revisar como quedo Aqui <a href="https://mariacutipagonzales.github.io/S35-Fab/"></a>
 
